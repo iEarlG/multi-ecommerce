@@ -1,0 +1,19 @@
+.main-links a:hover { 
+    color: var(--secondary-color);
+}
+.second-links a:hover { 
+    color: var(--light-text-color);
+}
+.icon-small, .icon-large { 
+    display: flex;
+    align-items: center;
+    padding: 0 0.25em;
+}
+.icon-small { 
+    font-size: 1.25em;
+    margin: auto;
+}
+.icon-large { 
+    font-size: 1.75em;
+    margin: 0 0.5em 0 0;
+}
